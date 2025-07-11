@@ -1,0 +1,127 @@
+body {
+  margin: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f8f9fa;
+}
+
+header {
+  background-color: #4CAF50;
+  color: white;
+  text-align: center;
+  padding: 20px 0;
+}
+
+header img {
+  width: 120px;
+  height: auto;
+  display: block;
+  margin: 0 auto 10px;
+}
+
+header h1 {
+  font-size: 32px;
+  margin: 10px 0 5px;
+}
+
+header p {
+  margin: 0;
+  font-size: 16px;
+}
+
+nav {
+  background-color: #333;
+  text-align: center;
+  padding: 10px 0;
+}
+
+nav a {
+  color: white;
+  margin: 0 20px;
+  text-decoration: none;
+  font-size: 16px;
+}
+
+.container {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.about h2 {
+  color: purple;
+  font-size: 24px;
+}
+
+.about p {
+  font-size: 16px;
+  color: #333;
+}
+
+.card {
+  background-color: #f1f2f6;
+  padding: 20px;
+  margin: 20px 0;
+  border-radius: 10px;
+}
+
+.card h2 {
+  color: #007bff;
+  margin-top: 0;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  background-color: white;
+}
+
+table, th, td {
+  border: 1px solid #ccc;
+}
+
+th, td {
+  padding: 12px;
+  text-align: left;
+}
+
+.link {
+  color: purple;
+}
+
+ul.speakers {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+ul.speakers li {
+  margin-bottom: 10px;
+  font-size: 16px;
+}
+
+.name {
+  color: blue;
+  font-weight: bold;
+}
+
+form label {
+  display: block;
+  margin-top: 15px;
+  color: purple;
+}
+
+input[type="text"], input[type="email"] {
+  width: 100%;
+  padding: 8px;
+  margin-top: 5px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+button {
+  background-color: #007bff;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  margin-top: 15px;
+}
